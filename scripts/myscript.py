@@ -1,5 +1,5 @@
 # Run Package locally or for deployment
-from mypackage.module_1 import module_1
+from footballanalysis.module_1 import module_1
 
 
 if __name__ == '__main__':
