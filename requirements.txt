@@ -1,1 +1,7 @@
 pandas
+footballanalysis
+matplotlib
+seaborn
+scipy
+pymc3
+statsmodels

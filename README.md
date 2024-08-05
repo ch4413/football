@@ -1,20 +1,41 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+MLS season modelling
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+
+0. Clone repo and download supporting data into `data`
+
+1. Create `env` and install requirements 
+
+```
+pip install -r requirements.txt
+```
+
+2. Install `footballanalysis` package
+
+```{python}
+cd football
+
+pip install -e .
+
+```
+
+3. Run Notebooks for analysis:
+
+#### EXPLORING THE FIRST SEASON
+* Q1, 2, 3: notebooks\S1_123_season_1_analysis.ipynb
+* Extra analysis of key players and XG: notebooks/S1_X_additional_analysis.ipynb
+
+#### PREDICTING THE SECOND SEASON
+* Q1: notebooks/S2_1_season_2_bayes_predictions.ipynb (simple Bayes), notebooks/S2_1_season_2_bayes_lm_prediction.ipynb (improved LM)
+
+* Q2: notebooks/S2_2_season_2_plot_predictions.ipynb
+
+
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Not build or test scripts added
 
 # Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+christopher.hughes@bath.edu
